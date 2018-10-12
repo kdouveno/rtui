@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+}
+
+#nav{
+	height: 100vh;
+	width: 400px;
+	background-color: black;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+#content{
+	width: calc(100vw - 400px);
+	height: 100vh;
+}
+
+.nav_con
+{
+	height: 120px;
+	width: 100%;
+	margin-top: 10px;
+	color: #fafafa;
+}
+.nav_con>div:first-child{float:left}
+.nav_con.top
+{
+	height: 200px;
+	margin-top:0;
+}
+.nav_con:hover{
+	background-color: #616161;
+}
